@@ -32,9 +32,9 @@ var webpackConfig = {
     // publicPath: isProduction() ? '' : 'http://localhost:5001', // 设置的不对会影响 开发和发布。。。
   },
   module: {
-    preLoaders: [
+    /*preLoaders: [
       {test: /\.js$/, loader: 'eslint-loader', exclude: /node_modules|dist/}
-    ],
+    ],*/
     loaders: [{
       test: /\.html$/,
       loader: 'html-loader'

@@ -1,0 +1,52 @@
+<style type="text/css">
+*{
+	margin:0;
+	padding: 0
+}
+.computerWrap{
+	width:500px;
+	margin:0 auto;
+}
+.computerWrap p{
+	width:100%;
+	margin-top: 20px
+}
+.butnList button{
+	width:20%;
+	height:30px;
+}
+.width85{
+	width: 85%;height:30px;
+}
+</style>
+<div class="computerWrap">
+    <p>
+        <input class="output width85" type="text" disabled="true" style="text-align:right"/>
+    </p>
+    <!-- onclick为什么不能用 ？？？-->
+    <p class="butnList">
+        <button class="operand">1</button>
+        <button class="operand">2</button>
+        <button class="operand">3</button>
+        <button class="operator">+</button>
+    </p>
+    <p class="butnList">
+        <button class="operand">4</button>
+        <button class="operand">5</button>
+        <button class="operand">6</button>
+        <button class="operator">-</button>
+    </p>
+    <p class="butnList">
+        <button class="operand">7</button>
+        <button class="operand">8</button>
+        <button class="operand">9</button>
+        <button class="operator">*</button>
+    </p>
+    <p class="butnList">
+        <button class="operand">0</button>
+        <button class="operand">.</button>
+        <button class="operator">/</button>
+        <button class="clear">清零</button>
+    </p>
+    <p><button class="result width85">=</button></p>
+</div>
